@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:text="Toast功能试验按钮" />
+
+
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显式跳转结合logcat toString看活动启动模式"/>
+
+    <Button
+        android:id="@+id/skip2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="隐式跳转到第二活动按钮"/>
+
+    <Button
+        android:id="@+id/outside"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="隐式转换外部活动按钮或者内部网页标记式活动"/>
+
+    <Button
+        android:id="@+id/transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="intent开活动同时传输数据按钮(!!!有问题）"/>
+
+    <Button
+        android:id="@+id/transfer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="startActivityForResult回值试验"/>
+
+
+    <Button
+        android:id="@+id/tele"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:text="跳转电话按钮"/>
+
+    <Button
+        android:id="@+id/destroy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="活动摧毁按钮(即退出**程序）"
+        />
+
+</LinearLayout>
